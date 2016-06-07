@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_memo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Memo" />
+        <item
+            android:id="@+id/nav_orari"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Orari" />
+        <item
+            android:id="@+id/nav_Registrazioni"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Registrazioni" />
+        <item
+            android:id="@+id/nav_compitipercasa"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Compiti per casa" />
+    </group>
+    <group android:checkableBehavior="none">
+            <item
+                android:id="@+id/nav_assenzeeritardi"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Controlla update" />
+            <item
+                android:id="@+id/nav_voti"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Informazioni" />
+</group>
+
+</menu>
