@@ -27,7 +27,7 @@
             <item
                 android:id="@+id/nav_voti"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Informazioni2" />
+                android:title="Informazioni" />
 </group>
 
 </menu>
